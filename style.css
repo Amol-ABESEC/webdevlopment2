@@ -1,0 +1,29 @@
+body{
+    background-image:url(backgroundimg.jpg);
+}
+img{
+    color: gold;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.nav{
+    color: gold;
+    justify-content: center;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+}
+.weapon{
+    display: flex;
+    justify-content: space-around;
+}
+
+
