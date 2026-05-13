@@ -10,11 +10,13 @@ function Props(props) {
      <h2>{props.rollno}</h2>
      <h3>{props.course}</h3>
      </div>
+
      <div style={{backgroundColor:'#f5f5f5', padding:'0 20px'}}>
      <h1>{props.name}</h1>
      <h2>{props.rollno}</h2>
      <h3>{props.course}</h3>
      </div>
+
      <div style={{backgroundColor:'#f5f5f5', padding:'0 20px'}}>
      <h1>{props.name}</h1>
      <h2>{props.rollno}</h2>
@@ -24,4 +26,5 @@ function Props(props) {
     </>
   )
 }
+
 export default Props

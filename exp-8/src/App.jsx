@@ -1,25 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
+import Props from './components/Props.jsx'
 
-function UseState() {
-    const[counter,setCounter]=useState(0);
-
-    const increment=()=>{
-        setCounter(counter+1);
-    }
-    const decrement=()=>{
-        setCounter(counter-1);
-    }
-    const reset=()=>{
-        setCounter(0);
-    }
+function App() {
   return (
-   <>
-   <h1>{counter}</h1>
-   <button onClick={increment} style={{width:'200px', backgroundColor:'blue'}}>+</button>
-  <button onClick={decrement} style={{width:'200px', backgroundColor:'blue', margin:'10px 0px'}}>-</button>
-   <button onClick={reset} style={{width:'200px', backgroundColor:'blue'}}>reset</button> 
-   </>
+    <div>
+      <h1>Student Information</h1>
+      <Props name="John Doe" rollno="12345" course="Computer Science" />
+    </div>
   )
 }
 
-export default UseState
+export default App
